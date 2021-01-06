@@ -10,9 +10,9 @@ repositories {
 }
 
 dependencies {
-    implementation("org.glassfish.jersey.core:jersey-client:2.33")
-    implementation("org.glassfish.jersey.inject:jersey-hk2:2.33")
-    implementation("org.glassfish.jersey.media:jersey-media-json-jackson:2.33")
-
+//    implementation("org.glassfish.jersey.core:jersey-client:2.33")
+//    implementation("org.glassfish.jersey.inject:jersey-hk2:2.33")
+//    implementation("org.glassfish.jersey.media:jersey-media-json-jackson:2.33")
+    implementation("org.springframework.boot:spring-boot-starter-jersey:2.4.1")
     testImplementation("junit", "junit", "4.12")
 }
